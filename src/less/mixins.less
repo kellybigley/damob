@@ -1,0 +1,33 @@
+﻿@import "elements.less";
+
+.box-shadow(@arguments) {
+    -webkit-box-shadow: @arguments;
+    -moz-box-shadow: @arguments;
+    box-shadow: @arguments;
+}
+
+.propertytransition(@property: all, @duration: .2s, @ease: ease-in, @delay: 0) {
+    -webkit-transition: @property @duration @ease @delay;
+    -moz-transition: @property @duration @ease @delay;
+    -o-transition: @property @duration @ease @delay;
+    transition: @property @duration @ease @delay;
+}
+
+.circle(@diameter) {
+    height: @diameter;
+    width: @diameter;
+    border-radius: 50%;
+}
+.fontawesome()
+{
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+.text-overflow() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

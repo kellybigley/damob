@@ -1,0 +1,14 @@
+{
+  "name": "damob",
+  "version": "0.0.1",
+  "authors": [
+    "Geographic Information Services, Inc."
+  ],
+  "dependencies": {
+    "angular": "1.6.3",
+    "bootstrap": "3.3.7",
+    "jquery": "2.1.4",
+    "angular-cookies": "1.6.3"
+  },
+  "devDependencies": {}
+}

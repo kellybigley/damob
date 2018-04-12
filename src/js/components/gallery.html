@@ -1,0 +1,95 @@
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <form id="gallery-nav-buttons" class="navbar-form navbar-left">
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default btn-sm" data-tag="showFavorites" ng-class="{'btn-danger': $ctrl.showFavorites}" ng-click="$ctrl.toggle($event)">
+                    <input type="radio">Favorites
+                </label>
+                <label class="btn btn-default btn-sm active" data-tag="showFeatured" ng-class="{'btn-danger': $ctrl.showFeatured}" ng-click="$ctrl.toggle($event)">
+                    <input type="radio" checked>Featured
+                </label>
+                <label class="btn btn-default btn-sm" ng-repeat="(key, toggledTab) in $ctrl.toggleTabs" id="{{key}}" data-tag="{{key}}" ng-class="{'btn-danger': $ctrl.setSearchActiveTab(key)}"
+                    ng-click="$ctrl.toggle($event)">
+                    <input type="radio">{{$ctrl.tabs[key]}}
+                </label>
+                <label class="btn btn-default btn-sm" ng-click="$ctrl.loadContacts()" data-tag="showContacts" ng-class="{'btn-danger': $ctrl.showContacts}" ng-click="$ctrl.toggle($event)">
+                    <input type="radio">Contacts
+                </label>
+            </div>
+            <div id='search-group' class="input-group input-group-sm">
+                <input type="text" class="form-control bg-danger" placeholder="Keyword" ng-model="$ctrl.search" ng-change="$ctrl.searchChange()"
+                    aria-describedby="title-addon">
+                <span class="input-group-btn" id="title-addon">
+                    <button id="searchbutton" class="btn btn-sm btn-default" ng-class="{ 'btn-danger': $ctrl.search !='' }" ng-click="$ctrl.clearSearch($ctrl.restoreTabKey)">{{$ctrl.searchLabel}}</button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="container gis-links" ng-if="$ctrl.showGISLinks"> 
+   
+    <div class="container-fluid">
+        <div class="row">
+            <div class="row">
+                 <div id="accordian" role="tablist" class="panel-group text-center"> 
+                    <h1 class='text-center text-danger'>Geospatial Links</h1>
+                    <div class="panel panel-default" ng-repeat="(linkCategory,links) in $ctrl.linkCategoryList">
+                        <div class="panel-heading" role="tab" data-toggle="collapse" data-parent="#accordian" href="#link-category{{$index}}" class="col-xs-12">
+                            <h4 class="panel-title">
+                                <a role="button">{{linkCategory}} <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-up"></span></a>
+                            </h4>      
+                        </div> 
+                        <div id="link-category{{$index}}" role="tabpanel" class="panel-collapse collapse list-content">      
+                            <div class="panel-body">
+                                <div ng-repeat="map in links">
+                                    <a href="{{map.url}}" target="_blank">{{map.title}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" ng-if="!$ctrl.showGISLinks">
+    <div class="container-fluid masonry-grid">
+        <div class="row no-gutters">
+            <div class='container' ng-if='$ctrl.showSearchResults'>
+                <h3 class="text-center">Search Results</h3>
+            </div>
+            <div ng-repeat="mapItem in $ctrl.maps | filter: $ctrl.mapsFilter | orderBy: 'title'">
+                <div class="grid-item col-auto pull-left">
+                    <div ng-mouseover="$ctrl.mouseOver(mapItem)" ng-mouseleave="$ctrl.mouseLeave(mapItem)">
+                        <div class="container">
+                            <div class="grid-item-content">
+                                <div class="row" data-id="{{mapItem.id}}">
+                                    <div class="col-xs-12">
+                                        <img class="gray" ng-src="{{mapItem.img}}" alt="mapItem_{{$index}}" />
+                                        <div class="grid-item-gradient">&nbsp;</div>
+                                    </div>
+                                    <div class="col-xs-10 pull-left">
+                                        <a href="{{mapItem.url}}" target="_blank">
+                                            <div class="map-title ">
+                                                <div class="map-title-text">{{mapItem.title}}</div>
+                                                <div class="map-detail hidden" data-id="details_{{mapItem.id}}">{{mapItem.details}}</div>
+                                                <div class="map-title-spacer">&nbsp;</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xs-2 pull-right">
+                                        <button type="button" class="btn btn-default favorite" ng-click="$ctrl.toggleFavorite(mapItem)" aria-label="Toggle Favorite" title="Toggle Favorite">
+                                            <span class="glyphicon" ng-class="{'glyphicon-star': !!mapItem.favorite,'glyphicon-star-empty': !mapItem.favorite}" aria-hidden="true"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,828 @@
+{
+  "tabs": {
+    "general": "All",
+    "commercial": "Commercial",
+    "ops": "OM&T",
+    "safety": "Public Safety",
+    "pd": "P&D",
+    "aerials": "Aerials",
+    "links": "Links"
+  },
+  "maps": [
+    {
+      "id": 1,
+      "title": "MOB Tracker",
+      "img": "https://orig00.deviantart.net/493e/f/2016/192/4/b/projared_mafia_mobster_by_no1bot-da9oftg.jpg",
+      "url": "https://orig00.deviantart.net/493e/f/2016/192/4/b/projared_mafia_mobster_by_no1bot-da9oftg.jpg",
+      "details": "Tracking map based on NOAA-supplied updates",
+      "tabs": [
+        "All",
+        "Public Safety"
+      ],
+      "keywords": [
+        "hurricane",
+        "weather"
+      ],
+      "linkCategory": null,
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "id": 2,
+      "title": "2030 ATLNext Master Plan",
+      "img": "img/masterplan_thumb2.jpg",
+      "url": "http://hjaia.maps.arcgis.com/apps/webappviewer/index.html?id=56adaf4c67c34e33bf6176edb1da70d9",
+      "details": "Master Plan projects laydown",
+      "tabs": [
+        "All",
+        "P&D"
+      ],
+      "keywords": [
+        "master plan",
+        "atlnext",
+        "cip"
+      ],
+      "linkCategory": null,
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "id": 3,
+      "title": "HJAIA Map Tour",
+      "img": "img/StorymapTour.jpg",
+      "url": "http://hjaia.maps.arcgis.com/apps/MapSeries/?appid=355b05ce3e2445bd958cef91112bc82e",
+      "details": "Let this story map take you on a tour of the wide variety of geospatial services the DOA GIS Group provides across the entire airport enterprise.",
+      "tabs": [
+        "GIS Links"
+      ],
+      "keywords": [
+        "tour",
+        "maptour",
+        "airport"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 4,
+      "title": "2030 ATLNext Master Plan (Public)",
+      "img": "img/MasterPlan.jpg",
+      "url": "http://www.arcgis.com/apps/webappviewer/index.html?id=d511d2301f98485699165505b42841f7",
+      "details": "Master Plan projects laydown (public facing)",
+      "tabs": [
+        "All",
+        "P&D"
+      ],
+      "keywords": [
+        "master plan",
+        "atlnext",
+        "cip"
+      ],
+      "linkCategory": null,
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "id": 5,
+      "title": "Interior Fire Equipment Viewer",
+      "img": "img/Fire.jpg",
+      "url": "http://www.arcgis.com/home/webmap/viewer.html?webmap=c2e02bcb39a74709958b2c190a1ece6d",
+      "details": "Web map showing CPTC intierior fire emergency equipment locations and evacuation routes",
+      "tabs": [
+        "All",
+        "Public Safety"
+      ],
+      "keywords": [
+        "fire",
+        "cptc",
+        "evacuation",
+        "exitnguiser",
+        "knox box",
+        "alarm",
+        "standpipe",
+        "cabinet"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 6,
+      "title": "C4 Dashboard",
+      "img": "img/c4center.jpg",
+      "url": "http://hjaia.maps.arcgis.com/apps/webappviewer/index.html?id=99f806d05de04d7484a5004422df4f46",
+      "details": "Web-based dashboard bringing together key information to help track incidents",
+      "tabs": [
+        "All",
+        "Public Safety"
+      ],
+      "keywords": [
+        "emergency",
+        "c4",
+        "cop"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 7,
+      "title": "AFD Risk Classification Map",
+      "img": "img/riskclass.jpg",
+      "url": "hhttp://hjaia.maps.arcgis.com/apps/webappviewer/index.html?id=1f0cd3a3675b4a28b3856efa6e381e88",
+      "details": "Mobile map for evaluating fire risk on interior spaces",
+      "tabs": [
+        "All",
+        "Public Safety"
+      ],
+      "keywords": [
+        "risk",
+        "afd",
+        "fire",
+        "cptc"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 8,
+      "title": "Interior Space Viewer",
+      "img": "img/interior_space2.jpg",
+      "url": "http://www.arcgis.com/home/webmap/viewer.html?webmap=8c2d8205e503493f86ec181f5afc4fa4",
+      "details": "Interior space laydown that includes space use/space function ",
+      "tabs": [
+        "Commercial",
+        "All"
+      ],
+      "keywords": [
+        "interior",
+        "cptc"
+      ],
+      "linkCategory": null,
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "id": 9,
+      "title": "Atlanta's Historic Airport: 1936 - 2014",
+      "img": "img/ATL_Tower1930.jpg",
+      "url": "http://hjaia.maps.arcgis.com/apps/webappviewer/index.html?id=52be51e4c66a48cdaa080a062156e43c",
+      "details": "The  history of Atlanta's airport told through aerial images",
+      "tabs": [
+        "All"
+      ],
+      "keywords": [
+        "historic",
+        "atlanta"
+      ],
+      "linkCategory": null,
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "id": 10,
+      "title": "H-JAIA in 3D",
+      "img": "img/3D_Airport.jpg",
+      "url": "http://hjaia.maps.arcgis.com/home/webscene/viewer.html?webscene=aaaf8da041624a148f459750f2260ce9",
+      "details": "Explore the airport exterior in 3D!",
+      "tabs": [
+        "All"
+      ],
+      "keywords": [
+        "3d",
+        "hjaia"
+      ],
+      "linkCategory": null,
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "id": 11,
+      "title": "Zimbabwe Art Story Map",
+      "img": "img/image_11_636524789671699212.JPG",
+      "url": "http://hjaia.maps.arcgis.com/apps/MapTour/index.html?appid=e3789bec89274dbf84c1e1ac3bf9c6c9",
+      "details": "A map highlighting the permanent Zimbabwe sculpture exhibit",
+      "tabs": [
+        "All"
+      ],
+      "keywords": [
+        "zimbabwe",
+        "art"
+      ],
+      "linkCategory": null,
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "id": 12,
+      "title": "Project Development Web Map",
+      "img": "img/blueprints2.jpg",
+      "url": "http://www.arcgis.com/apps/webappviewer/index.html?id=d128ef01864143d3bb3ec28d8854f0d3",
+      "details": "Comprehensive roll-up of data needed to support project development",
+      "tabs": [
+        "All",
+        "P&D"
+      ],
+      "keywords": [
+        "engineering",
+        "project development",
+        "construction",
+        "planning"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 13,
+      "title": "HJAIA Utilities",
+      "img": "img/utilities2.png",
+      "url": "http://hjaia.maps.arcgis.com/apps/webappviewer/index.html?id=c650522a95e84d9ba1e399471506689b",
+      "details": "Comprehensive roll-up of utiltiy data on the airport as maintained by the GIS Group",
+      "tabs": [
+        "All",
+        "P&D"
+      ],
+      "keywords": [
+        "utilities",
+        "sanitary",
+        "storm",
+        "electrical",
+        "fuel",
+        "water"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 14,
+      "title": "Airfield Pavement Viewer",
+      "img": "img/AirfieldPavement.jpg",
+      "url": "http://hjaia.maps.arcgis.com/home/webmap/viewer.html?webmap=adfebbd4052f4433b3b6b24d382a34e1",
+      "details": "Airfield pavement laydown, slab location repair history and evaluation history",
+      "tabs": [
+        "All",
+        "P&D"
+      ],
+      "keywords": [
+        "pavement",
+        "airfield",
+        "engineering"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 15,
+      "title": "2015 Airspace Analysis",
+      "img": "img/planeintrees.jpg",
+      "url": "http://hjaia.maps.arcgis.com/apps/webappviewer/index.html?id=597a2a11cd7d4afe91ee9824a084c9bc",
+      "details": "Airspace analysis for determining obstacles and obstructions in concert with approach and departure surfaces",
+      "tabs": [
+        "All",
+        "P&D"
+      ],
+      "keywords": [
+        "obstruction,airspace,engineering,faa,obstacle"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 16,
+      "title": "ATLNext Logistics Viewer",
+      "img": "img/LaydownYard.jpg",
+      "url": "http://hjaia.maps.arcgis.com/apps/webappviewer/index.html?id=86917a5b13d64bb5991f938fb606482e",
+      "details": "Logistics planning tool for use by ATLNext",
+      "tabs": [
+        "All",
+        "P&D"
+      ],
+      "keywords": [
+        "atlnext",
+        "logistics",
+        "cip",
+        "construction"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 17,
+      "title": "Asset Management Viewer",
+      "img": "img/asset_management.jpg",
+      "url": "http://hjaia.maps.arcgis.com/apps/webappviewer/index.html?id=f4c3bbcecabd4b178eb920c06a9dc10e",
+      "details": "Compiles a variety of key asset and facility data for use in AM&S planning",
+      "tabs": [
+        "All",
+        "P&D"
+      ],
+      "keywords": [
+        "asset",
+        "asset management",
+        "sustainability",
+        "facilities"
+      ],
+      "linkCategory": null,
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "id": 18,
+      "title": "Sanitary Sewer Assessment (2014)",
+      "img": "img/SanitarySewer.jpg",
+      "url": "http://www.arcgis.com/apps/webappviewer/index.html?id=2410c684db644acaaea760cda64a4470",
+      "details": "Depicts lines assessed in 2014 along with links to sanitary line condition video",
+      "tabs": [
+        "All",
+        "P&D"
+      ],
+      "keywords": [
+        "sewer",
+        "assessment"
+      ],
+      "linkCategory": null,
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "id": 19,
+      "title": "Green Infrastructure Suitability Viewer",
+      "img": "img/GI.jpg",
+      "url": "http://www.arcgis.com/apps/webappviewer/index.html?id=91a5876ca7d944e7a9c47a1e1a363a5e",
+      "details": "",
+      "tabs": [
+        "All"
+      ],
+      "keywords": [
+        "green",
+        "infrastructure",
+        "suitability"
+      ],
+      "linkCategory": null,
+      "featured": true,
+      "hidden": true
+    },
+    {
+      "id": 20,
+      "title": "H-JAIA Survey Control",
+      "img": "img/survey.png",
+      "url": "http://hjaia.maps.arcgis.com/apps/webappviewer/index.html?id=61cf428dd17748ae8de3d6d9b915ed42",
+      "details": "Permanent horizontal and vertical survey control on the airport",
+      "tabs": [
+        "All",
+        "P&D"
+      ],
+      "keywords": [
+        "survey",
+        "construction",
+        "control"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 21,
+      "title": "HJAIA Aerial 2014 (PDF)",
+      "img": "img/aerial_2014.jpg",
+      "url": "http://s0411300/Documents/HJAIA_Aerial_2014.pdf",
+      "details": "The 2014 HJAIA aerial in PDF format. When you click on the thumbnail or this link the PDF will open in your browser and from there you can save it to your local computer.",
+      "tabs": [
+        "All",
+        "Aerials"
+      ],
+      "keywords": [
+        "aerials",
+        "2014"
+      ],
+      "linkCategory": "Department of Aviation",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 22,
+      "title": "HJAIA Aerial 2015 (PDF)",
+      "img": "img/aerial_2014.jpg",
+      "url": "http://s0411300/Documents/HJAIA_Aerial_2015.pdf",
+      "details": "The 2015 HJAIA aerial in PDF format. When you click on the thumbnail or this link the PDF will open in your browser and from there you can save it to your local computer.",
+      "tabs": [
+        "All",
+        "Aerials"
+      ],
+      "keywords": [
+        "aerials",
+        "2015"
+      ],
+      "linkCategory": "Department of Aviation",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 23,
+      "title": "HJAIA Aerial 2016 (PDF)",
+      "img": "img/aerial_2013.jpg",
+      "url": "http://s0411300/Documents/HJAIA_Aerial_2016.pdf",
+      "details": "The 2016 HJAIA aerial in PDF format. When you click on the thumbnail or this link the PDF will open in your browser and from there you can save it to your local computer.",
+      "tabs": [
+        "All",
+        "Aerials"
+      ],
+      "keywords": [
+        "aerials",
+        "2016"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 24,
+      "title": "ArcGIS Online",
+      "img": "img/hjaia_ago.png",
+      "url": "http://hjaia.maps.arcgis.com/home/",
+      "details": "",
+      "tabs": [
+        "GIS Links"
+      ],
+      "keywords": [
+        "arcgis",
+        "ago"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 25,
+      "title": "Pictometry ConnectExplorer",
+      "img": "",
+      "url": "http://explorer.pictometry.com/",
+      "details": "",
+      "tabs": [
+        "GIS Links"
+      ],
+      "keywords": [
+        "pictometry"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": true
+    },
+    {
+      "id": 26,
+      "title": "7460 Viewer",
+      "img": "img/obstacles.jpg",
+      "url": "http://arcgis.com/home/webmap/viewer.html?webmap=6c29f0b6cd3a483cae16a96b292aeacc",
+      "details": "FAA Form 7460-1 submittal locations and status",
+      "tabs": [
+        "All",
+        "P&D"
+      ],
+      "keywords": [
+        "7460",
+        "construction"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 27,
+      "title": "DOA Maintenance Viewer",
+      "img": "img/Maintenance.jpg",
+      "url": "http://www.arcgis.com/apps/webappviewer/index.html?id=3b027b155d644829b634fb142e695d33",
+      "details": "Comprehensive maintenance planning & tracking tool",
+      "tabs": [
+        "OM&T",
+        "All"
+      ],
+      "keywords": [
+        "maintenance"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 28,
+      "title": "Grass Cutting Map",
+      "img": "img/grass.jpg",
+      "url": "http://www.arcgis.com/apps/webappviewer/index.html?id=5fe527385be74c40a66725081232c0a2",
+      "details": "For tracking the status and location of airport mowing activities",
+      "tabs": [
+        "All",
+        "OM&T"
+      ],
+      "keywords": [
+        "maintenance",
+        "grass"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 29,
+      "title": "Roadway Lighting Status",
+      "img": "img/RoadwayLighting.jpg",
+      "url": "http://hjaia.maps.arcgis.com/home/webmap/viewer.html?webmap=604951ac1b60431ea417b4ab3abd43dc",
+      "details": "Roadway lighting status and ownership",
+      "tabs": [
+        "All",
+        "OM&T"
+      ],
+      "keywords": [
+        "maintenance",
+        "landside",
+        "lighting"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 30,
+      "title": "Landside Snow & Ice Removal Priorities",
+      "img": "img/snowplow.jpg",
+      "url": "http://hjaia.maps.arcgis.com/home/webmap/viewer.html?webmap=7b4e4a6ec8c74392811f5636da2fcf33",
+      "details": "Maintenance snow & ice removal priorities for landside roadways",
+      "tabs": [
+        "All",
+        "OM&T"
+      ],
+      "keywords": [
+        "maintenance",
+        "landside",
+        "snow",
+        "ice",
+        "deicing",
+        "winter",
+        "roadways",
+        "weather"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 31,
+      "title": "Airside Winter WX Pavement Status",
+      "img": "img/SnowRemoval.jpg",
+      "url": "http://hjaia.maps.arcgis.com/home/webmap/viewer.html?webmap=520c85d43344401584d31a791b97c19e",
+      "details": "Airside winter weather airfield pavement status",
+      "tabs": [
+        "All",
+        "OM&T"
+      ],
+      "keywords": [
+        "maintenance",
+        "airside",
+        "snow",
+        "ice",
+        "deicing",
+        "winter",
+        "roadways",
+        "weather",
+        "airfield"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 32,
+      "title": "Winter WX Common Operating Picture",
+      "img": "img/delta_deicing.jpg",
+      "url": "http://hjaia.maps.arcgis.com/apps/MapTools/index.html?appid=0ce28f168eee4bdda27fdb7af2aa5eb8",
+      "details": "Shared winter weather common operational picture web tool",
+      "tabs": [
+        "All",
+        "OM&T",
+        "Public Safety"
+      ],
+      "keywords": [
+        "maintenance",
+        "c4",
+        "safety",
+        "winter",
+        "weather",
+        "cop"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 33,
+      "title": "WInter WX Ops Web Map Gallery",
+      "img": "",
+      "url": "http://hjaia.maps.arcgis.com/apps/PublicGallery/index.html?appid=06ae493a81d74b85a03a4cf86c3e4ef2",
+      "details": "",
+      "tabs": [
+        "GIS Links",
+        "OM&T"
+      ],
+      "keywords": [
+        "winter"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 34,
+      "title": "Airside Ops Web Map Gallery",
+      "img": "",
+      "url": "http://hjaia.maps.arcgis.com/apps/PublicGallery/index.html?appid=9a06c1512e10471dac2ced015f6b1d31&group=5f39c73f68c64abc821ab60937aca3c1",
+      "details": "",
+      "tabs": [
+        "GIS Links",
+        "OM&T"
+      ],
+      "keywords": [
+        "airside"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 35,
+      "title": "Maintenance Web Map Gallery",
+      "img": "",
+      "url": "http://hjaia.maps.arcgis.com/apps/PublicGallery/index.html?appid=64cd9af0261341dc9ab314df4e5ee333",
+      "details": "",
+      "tabs": [
+        "GIS Links",
+        "OM&T"
+      ],
+      "keywords": [
+        "maintenance"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 36,
+      "title": "Atlanta Dept of Planning & Community Development GIS",
+      "img": "",
+      "url": "http://gis.atlantaga.gov/",
+      "details": "",
+      "tabs": [
+        "GIS Links",
+        "P&D"
+      ],
+      "keywords": [
+        "atlanta"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 37,
+      "title": "Atlanta Regional Commission",
+      "img": "",
+      "url": "http://www.atlantaregional.com/info-center/gis-data-maps/interactive-mapping",
+      "details": "",
+      "tabs": [
+        "GIS Links"
+      ],
+      "keywords": [
+        "atlanta"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 38,
+      "title": "City of Atlanta Watershed GIS",
+      "img": "",
+      "url": "http://gis.atlantawatershed.org/gisportal/home/gis_net/asp/",
+      "details": "",
+      "tabs": [
+        "GIS Links"
+      ],
+      "keywords": [
+        "atlanta",
+        "watershed"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 39,
+      "title": "Georgia Navigator 511 Real Time Traffic",
+      "img": "",
+      "url": "http://www.511ga.org/realtimetraffic.html",
+      "details": "",
+      "tabs": [
+        "GIS Links"
+      ],
+      "keywords": [
+        "traffic"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 40,
+      "title": "2014/2015 Lease Exhibits",
+      "img": "img/Lease.jpg",
+      "url": "http://www.arcgis.com/apps/webappviewer/index.html?id=e2bbe1b9ed3e4bd380320035fdb8faf9",
+      "details": "Current lease exhibits",
+      "tabs": [
+        "All",
+        "Commercial"
+      ],
+      "keywords": [
+        "properties",
+        "lease"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 41,
+      "title": "2016 Concessions",
+      "img": "img/Concessions.jpg",
+      "url": "http://hjaia.maps.arcgis.com/apps/webappviewer/index.html?id=607bb8bb44a046b59a9cdcaf6a32a637",
+      "details": "Current concession exhibits",
+      "tabs": [
+        "All",
+        "Commercial"
+      ],
+      "keywords": [
+        "properties",
+        "concessions"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 42,
+      "title": "Properties",
+      "img": "img/atl_postcard.jpg",
+      "url": "http://hjaia.maps.arcgis.com/apps/webappviewer/index.html?id=921319ac0ec74442954c575a09642b0c",
+      "details": "DOA/COA owned parcel data",
+      "tabs": [
+        "All",
+        "Commercial"
+      ],
+      "keywords": [
+        "properties",
+        "parcels"
+      ],
+      "linkCategory": null,
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "id": 43,
+      "title": "Test Link With This Title",
+      "img": "img/image_43_636464578897273697.png",
+      "url": "http://www.gisinc.com",
+      "details": "This is a web site that shows off some awesome stuff",
+      "tabs": [
+        "Links"
+      ],
+      "keywords": [
+        "GISinc",
+        "awesome"
+      ],
+      "linkCategory": "City of Atlanta",
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "id": 44,
+      "title": "Link",
+      "img": "img/image_44_636465032943499041.png",
+      "url": "http://www.gisinc.com",
+      "details": "Hola",
+      "tabs": [
+        "Links"
+      ],
+      "keywords": [
+        "GISinc",
+        "awesome"
+      ],
+      "linkCategory": "Georgia",
+      "featured": false,
+      "hidden": false
+    }
+  ]
+}

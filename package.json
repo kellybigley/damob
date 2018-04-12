@@ -1,0 +1,21 @@
+{
+  "name": "damob",
+  "version": "1.0.0",
+  "author": "\"Geographic Information Services, Inc.\"",
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-banner": "~0.6.0",
+    "grunt-bump": "~0.8.0",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-connect": "1.0.2",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-cssmin": "~1.0.1",
+    "grunt-contrib-less": "~1.3.0",
+    "grunt-contrib-requirejs": "~1.0.0",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-text-replace": "0.4.0",
+    "load-grunt-tasks": "3.5.0"
+  },
+  "dependencies": {}
+}
