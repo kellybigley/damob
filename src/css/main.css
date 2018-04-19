@@ -11,46 +11,6 @@ gallery .navbar.navbar-fixed-top {
 gallery .container-fluid {
   margin-bottom: 90px;
 }
-gallery .gis-links h1 {
-  padding: 25px;
-}
-gallery .gis-links .container-fluid {
-  padding-right: 75px;
-  padding-left: 75px;
-}
-gallery .gis-links #accordian {
-  margin-top: 150px;
-}
-gallery .gis-links #accordian .panel-heading {
-  background-color: rgba(0, 0, 0, 0.08);
-}
-gallery .gis-links #accordian .panel-heading .glyphicon-chevron-up {
-  display: none;
-}
-gallery .gis-links #accordian .panel-heading .glyphicon-chevron-down {
-  display: inline;
-}
-gallery .gis-links #accordian .panel-heading[aria-expanded="true"] .glyphicon-chevron-up {
-  display: inline;
-}
-gallery .gis-links #accordian .panel-heading[aria-expanded="true"] .glyphicon-chevron-down {
-  display: none;
-}
-gallery .gis-links #accordian .panel-title a:hover {
-  text-decoration: none !important;
-  outline: none;
-}
-gallery .gis-links #accordian .panel-title a .glyphicon {
-  font-size: 12px;
-}
-gallery .gis-links #accordian .panel-body {
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-}
-gallery .gis-links #accordian .panel-body a {
-  line-height: 250%;
-  outline: none;
-}
 gallery .masonry-grid {
   margin-top: 155px;
 }

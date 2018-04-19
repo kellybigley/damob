@@ -11,7 +11,7 @@ angular.module('app').component('gallery', {
         
         vm.showGISLinks = false;
         vm.restoreTabKey="general";
-        vm.searchLabel = 'Keyword Search'
+        vm.searchLabel = 'Filter'
         vm.showSearchResults = false;
         vm.linkCategoryList = {"Department of Aviation": [], "City of Atlanta": [] , "Georgia": [], "Regional/Federal":[]};
         vm.showGISLinks = false;
@@ -90,7 +90,7 @@ angular.module('app').component('gallery', {
             vm.showFavorites = (tagKey == 'showFavorites');
             vm.showFeatured = (tagKey == 'showFeatured');
             vm.showGISLinks = (tagKey == 'links');
-            vm.showSearchResults = (vm.searchLabel == 'Clear Search');
+            vm.showSearchResults = (vm.searchLabel == 'Clear Filter');
             (tagKey == 'links') ? $("#search-group").hide() : $("#search-group").show(); //hides search on link page
             vm.showContacts = (tagKey == 'showContacts')
             angular.forEach(vm.toggleTabs, function (tag, key) {
@@ -98,7 +98,7 @@ angular.module('app').component('gallery', {
             });
         };
         vm.searchChange = function () {
-            vm.searchLabel = vm.search.length == 0 ? 'Keyword Search' : 'Clear Search';
+            vm.searchLabel = vm.search.length == 0 ? 'Filter' : 'Clear Filter';
             vm.showSearchResults = true;
             //get current tab to return to later
             vm.getRestoreTabKeyTab();
@@ -122,10 +122,10 @@ angular.module('app').component('gallery', {
         };
 
         vm.clearSearch = function() {
-            if (vm.searchLabel == 'Clear Search') {
+            if (vm.searchLabel == 'Clear Filter') {
                 vm.search = '';
                 vm.showSearchResults = false;
-                vm.searchLabel = "Keyword Search";
+                vm.searchLabel = "Filter";
                 vm.toggleTabs['general'] = {toggled: false };
                 if (vm.restoreTabKey == "showFavorites") vm.showFavorites = true;
                 else if (vm.restoreTabKey == "showFeatured") vm.showFeatured = true;

@@ -14,7 +14,7 @@
                 </label>
             </div>
             <div id='search-group' class="input-group input-group-sm">
-                <input type="text" class="form-control bg-danger" placeholder="Keyword" ng-model="$ctrl.search" ng-change="$ctrl.searchChange()"
+                <input type="text" class="form-control bg-danger" placeholder="Filter" ng-model="$ctrl.search" ng-change="$ctrl.searchChange()"
                     aria-describedby="title-addon">
                 <span class="input-group-btn" id="title-addon">
                     <button id="searchbutton" class="btn btn-sm btn-default" ng-class="{ 'btn-danger': $ctrl.search !='' }" ng-click="$ctrl.clearSearch($ctrl.restoreTabKey)">{{$ctrl.searchLabel}}</button>
@@ -24,39 +24,9 @@
     </div>
 </div>
 
-<div class="container gis-links" ng-if="$ctrl.showGISLinks"> 
-   
-    <div class="container-fluid">
-        <div class="row">
-            <div class="row">
-                 <div id="accordian" role="tablist" class="panel-group text-center"> 
-                    <h1 class='text-center text-danger'>Geospatial Links</h1>
-                    <div class="panel panel-default" ng-repeat="(linkCategory,links) in $ctrl.linkCategoryList">
-                        <div class="panel-heading" role="tab" data-toggle="collapse" data-parent="#accordian" href="#link-category{{$index}}" class="col-xs-12">
-                            <h4 class="panel-title">
-                                <a role="button">{{linkCategory}} <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-up"></span></a>
-                            </h4>      
-                        </div> 
-                        <div id="link-category{{$index}}" role="tabpanel" class="panel-collapse collapse list-content">      
-                            <div class="panel-body">
-                                <div ng-repeat="map in links">
-                                    <a href="{{map.url}}" target="_blank">{{map.title}}</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="container" ng-if="!$ctrl.showGISLinks">
     <div class="container-fluid masonry-grid">
         <div class="row no-gutters">
-            <div class='container' ng-if='$ctrl.showSearchResults'>
-                <h3 class="text-center">Search Results</h3>
-            </div>
             <div ng-repeat="mapItem in $ctrl.maps | filter: $ctrl.mapsFilter | orderBy: 'title'">
                 <div class="grid-item col-auto pull-left">
                     <div ng-mouseover="$ctrl.mouseOver(mapItem)" ng-mouseleave="$ctrl.mouseLeave(mapItem)">

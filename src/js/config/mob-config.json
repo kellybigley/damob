@@ -35,28 +35,32 @@
       ],
       "keywords": [
         "loan",
-        "shark"
-      ]
+        "shark",
+        "money"
+      ],
+      "featured": true
     },
     {
       "id": 3,
       "title": "Bootlegging",
-      "img": "https://amedia.britannica.com/700x450/63/116463-004-F04F918E.jpg",
-      "url": "https://amedia.britannica.com/700x450/63/116463-004-F04F918E.jpg",
+      "img": "http://www.todayifoundout.com/wp-content/uploads/2016/08/bootleggers.jpg",
+      "url": "http://www.todayifoundout.com/wp-content/uploads/2016/08/bootleggers.jpg",
       "details": "Get money through sweet, sweet liquor",
       "tabs": [
         "All",
         "Illegal Activities"
       ],
       "keywords": [
-        "bootleg"
-      ]
+        "bootleg",
+        "money"
+      ],
+      "featured": true
     },
     {
       "id": 4,
       "title": "Miami",
-      "img": "http://southbeachlanguages.com/wp-content/uploads/2016/09/miami.jpg",
-      "url": "http://southbeachlanguages.com/wp-content/uploads/2016/09/miami.jpg",
+      "img": "https://www.1800packrat.com/~/media/packrat/images/locations/miami/miami-florida-skyline.jpg",
+      "url": "https://www.1800packrat.com/~/media/packrat/images/locations/miami/miami-florida-skyline.jpg",
       "details": "Beautiful Miami, FL",
       "tabs": [
         "All",
@@ -64,8 +68,10 @@
       ],
       "keywords": [
         "florida",
-        "miami"
-      ]
+        "miami",
+        "peeps"
+      ],
+      "featured": true
     },
     {
       "id": 5,
@@ -81,8 +87,10 @@
         "jersey",
         "joisey",
         "hell",
-        "newark"
-      ]
+        "newark",
+        "peeps"
+      ],
+      "featured": true
     },
     {
       "id": 6,
@@ -96,35 +104,40 @@
       ],
       "keywords": [
         "Goal"
-      ]
+      ],
+      "featured": true
     },
     {
       "id": 7,
       "title": "Chicago",
-      "img": "https://d4ov6iqsvotvt.cloudfront.net/uploads/article/image/915/large_Chicago_blog.jpg",
-      "url": "https://d4ov6iqsvotvt.cloudfront.net/uploads/article/image/915/large_Chicago_blog.jpg",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/2/26/Chicago_Theatre_blend.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Chicago_Theatre_blend.jpg",
       "details": "Chicago",
       "tabs": [
         "All",
         "Chapters"
       ],
       "keywords": [
-        "chicago"
-      ]
+        "chicago",
+        "peeps"
+      ],
+      "featured": true
     },
     {
       "id": 8,
       "title": "Extortion",
-      "img": "https://cyware.com/smart/unsafe/785x390/smart/filters:quality(80)/https://cystory-images.s3.amazonaws.com/shutterstock_300390236.jpg",
-      "url": "https://cyware.com/smart/unsafe/785x390/smart/filters:quality(80)/https://cystory-images.s3.amazonaws.com/shutterstock_300390236.jpg",
+      "img": "http://images.financialexpress.com/2016/11/cash-3-620x413.jpg",
+      "url": "http://images.financialexpress.com/2016/11/cash-3-620x413.jpg",
       "details": "Make money by getting money from other people",
       "tabs": [
         "All",
         "Illegal Activities"
       ],
       "keywords": [
-        "extortion"
-      ]
+        "extortion",
+        "money"
+      ],
+      "featured": true
     }
   ]
 }
