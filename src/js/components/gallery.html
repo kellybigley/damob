@@ -12,9 +12,6 @@
                     ng-click="$ctrl.toggle($event)">
                     <input type="radio">{{$ctrl.tabs[key]}}
                 </label>
-                <label class="btn btn-default btn-sm" ng-click="$ctrl.loadContacts()" data-tag="showContacts" ng-class="{'btn-danger': $ctrl.showContacts}" ng-click="$ctrl.toggle($event)">
-                    <input type="radio">Contacts
-                </label>
             </div>
             <div id='search-group' class="input-group input-group-sm">
                 <input type="text" class="form-control bg-danger" placeholder="Keyword" ng-model="$ctrl.search" ng-change="$ctrl.searchChange()"

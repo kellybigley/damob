@@ -2,8 +2,7 @@
   "tabs": {
     "general": "All",
     "activities": "Illegal Activities",
-    "chapters": "Chapters",
-    "links": "Links"
+    "chapters": "Chapters"
   },
   "maps": [
     {
@@ -97,6 +96,34 @@
       ],
       "keywords": [
         "Goal"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Chicago",
+      "img": "https://d4ov6iqsvotvt.cloudfront.net/uploads/article/image/915/large_Chicago_blog.jpg",
+      "url": "https://d4ov6iqsvotvt.cloudfront.net/uploads/article/image/915/large_Chicago_blog.jpg",
+      "details": "Chicago",
+      "tabs": [
+        "All",
+        "Chapters"
+      ],
+      "keywords": [
+        "chicago"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Extortion",
+      "img": "https://cyware.com/smart/unsafe/785x390/smart/filters:quality(80)/https://cystory-images.s3.amazonaws.com/shutterstock_300390236.jpg",
+      "url": "https://cyware.com/smart/unsafe/785x390/smart/filters:quality(80)/https://cystory-images.s3.amazonaws.com/shutterstock_300390236.jpg",
+      "details": "Make money by getting money from other people",
+      "tabs": [
+        "All",
+        "Illegal Activities"
+      ],
+      "keywords": [
+        "extortion"
       ]
     }
   ]
